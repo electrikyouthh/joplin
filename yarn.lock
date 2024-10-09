@@ -4811,7 +4811,7 @@ __metadata:
   resolution: "@joplin/turndown-plugin-gfm@workspace:packages/turndown-plugin-gfm"
   dependencies:
     browserify: 14.5.0
-    rollup: 0.50.1
+    rollup: 2.79.2
     standard: 17.0.0
     turndown: 7.1.2
     turndown-attendant: 0.0.3
@@ -4826,7 +4826,7 @@ __metadata:
     css: 3.0.0
     html-entities: 1.4.0
     jsdom: 21.1.2
-    rollup: 0.50.1
+    rollup: 2.79.2
     rollup-plugin-commonjs: 8.4.1
     rollup-plugin-node-resolve: 3.4.0
     rollup-plugin-replace: 2.2.0
@@ -28746,12 +28746,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:0.50.1":
-  version: 0.50.1
-  resolution: "rollup@npm:0.50.1"
+"rollup@npm:2.79.2":
+  version: 2.79.2
+  resolution: "rollup@npm:2.79.2"
+  dependencies:
+    fsevents: ~2.3.2
+  dependenciesMeta:
+    fsevents:
+      optional: true
   bin:
-    rollup: ./bin/rollup
-  checksum: c5ac8c8dedfb2c2af7238977b012fd9ce55df1e6e80108fa4061a7106d1fc8242261e630e687cbf93fe95221a15d3bb30ab0c914eda11eead5f043e6f39cea87
+    rollup: dist/bin/rollup
+  checksum: df7aa4c8b95245dede157b06ab71e1921de6080757d30e9bf31f8fb142064d12dda865e2bafbab4349588f43425b2965a290c9a5da1c048246a70fc21734ebd7
   languageName: node
   linkType: hard
 
